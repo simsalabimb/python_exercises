@@ -11,7 +11,7 @@ def main():
   year = datetime.date.today().year
   age_100 = (year - age) + 100
   
-  print("You will be 100 in the year: " + str(age_100))
+  print( name + "will be 100 in the year: " + str(age_100))
 
   
 if __name__ == '__main__':
